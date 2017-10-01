@@ -600,7 +600,7 @@ int id action_mode_close_button 0x7f0b002f
 int id action_text 0x7f0b0065
 int id actions 0x7f0b0073
 int id activity_chooser_view_content 0x7f0b0030
-int id activity_recycler_view 0x7f0b0060
+int id activity_icon 0x7f0b0062
 int id activity_title 0x7f0b0061
 int id add 0x7f0b001c
 int id alertTitle 0x7f0b0044
@@ -616,7 +616,6 @@ int id checkbox 0x7f0b0047
 int id chronometer 0x7f0b006f
 int id collapseActionView 0x7f0b0027
 int id contentPanel 0x7f0b003a
-int id crime_solved 0x7f0b0062
 int id custom 0x7f0b0041
 int id customPanel 0x7f0b0040
 int id decor_content_parent 0x7f0b004e
@@ -652,6 +651,7 @@ int id notification_main_column_container 0x7f0b006b
 int id packed 0x7f0b000d
 int id parent 0x7f0b000a
 int id parentPanel 0x7f0b0039
+int id photo_recycler_view 0x7f0b0060
 int id progress_circular 0x7f0b0006
 int id progress_horizontal 0x7f0b0007
 int id radio 0x7f0b0049
@@ -734,7 +734,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f040018
 int layout abc_search_view 0x7f040019
 int layout abc_select_dialog_material 0x7f04001a
 int layout activity_fragment 0x7f04001b
-int layout fragment_crime_list 0x7f04001c
+int layout fragment_photo_gallery 0x7f04001c
 int layout list_item_crime 0x7f04001d
 int layout notification_action 0x7f04001e
 int layout notification_action_tombstone 0x7f04001f

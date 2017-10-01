@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:3:5-49
 		INJECTED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml
@@ -13,8 +13,12 @@ ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:
 	android:versionCode
 		INJECTED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:7:5-23:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jeeva/.android/build-cache/5b5c0d5efe2590a1d5064389123772666a44177e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/jeeva/.android/build-cache/48dda48fbe6553be1a074b9f01b3aa1f30579c09/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/jeeva/.android/build-cache/3dfd251b7e3d0df6bb50f5c2ddee916cf08f80d7/output/AndroidManifest.xml:29:5-20
@@ -26,31 +30,39 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jeev
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/jeeva/.android/build-cache/df05cc34f32ae406f7545866b3abb8bcfc9fd930/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/jeeva/.android/build-cache/3d49c575002447369dead8548512f3ea811f83ef/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.jeevscode.jeeva.criminalintent.ActivityListActivity
-ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:13:9-18:20
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.jeevscode.jeeva.criminalintent.PhotoGalleryActivity
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:15:9-22:20
 	android:name
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:13:19-55
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:14:13-17:29
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:15:19-55
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:16:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:18:27-74
+category#android.intent.category.HOME
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:19:17-73
+	android:name
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:19:27-70
+category#android.intent.category.DEFAULT
+ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml:20:27-73
 uses-sdk
 INJECTED from /Users/jeeva/Desktop/ActivityLister/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/jeeva/.android/build-cache/5b5c0d5efe2590a1d5064389123772666a44177e/output/AndroidManifest.xml:21:5-23:78

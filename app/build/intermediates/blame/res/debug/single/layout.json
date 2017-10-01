@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/jeeva/Desktop/ActivityLister/app/build/intermediates/res/merged/debug/layout/fragment_crime_list.xml",
-        "source": "/Users/jeeva/Desktop/ActivityLister/app/src/main/res/layout/fragment_crime_list.xml"
-    },
-    {
         "merged": "/Users/jeeva/Desktop/ActivityLister/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/jeeva/.android/build-cache/5b5c0d5efe2590a1d5064389123772666a44177e/output/res/layout/abc_screen_content_include.xml"
     },
@@ -126,6 +122,10 @@
     {
         "merged": "/Users/jeeva/Desktop/ActivityLister/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/jeeva/.android/build-cache/5b5c0d5efe2590a1d5064389123772666a44177e/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/jeeva/Desktop/ActivityLister/app/build/intermediates/res/merged/debug/layout/fragment_photo_gallery.xml",
+        "source": "/Users/jeeva/Desktop/ActivityLister/app/src/main/res/layout/fragment_photo_gallery.xml"
     },
     {
         "merged": "/Users/jeeva/Desktop/ActivityLister/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",

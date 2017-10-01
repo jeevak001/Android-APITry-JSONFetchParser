@@ -2382,7 +2382,7 @@ containing a value of this type.
         public static final int action_text=0x7f0b0065;
         public static final int actions=0x7f0b0073;
         public static final int activity_chooser_view_content=0x7f0b0030;
-        public static final int activity_recycler_view=0x7f0b0060;
+        public static final int activity_icon=0x7f0b0062;
         public static final int activity_title=0x7f0b0061;
         public static final int add=0x7f0b001c;
         public static final int alertTitle=0x7f0b0044;
@@ -2398,7 +2398,6 @@ containing a value of this type.
         public static final int chronometer=0x7f0b006f;
         public static final int collapseActionView=0x7f0b0027;
         public static final int contentPanel=0x7f0b003a;
-        public static final int crime_solved=0x7f0b0062;
         public static final int custom=0x7f0b0041;
         public static final int customPanel=0x7f0b0040;
         public static final int decor_content_parent=0x7f0b004e;
@@ -2434,6 +2433,7 @@ containing a value of this type.
         public static final int packed=0x7f0b000d;
         public static final int parent=0x7f0b000a;
         public static final int parentPanel=0x7f0b0039;
+        public static final int photo_recycler_view=0x7f0b0060;
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b0049;
@@ -2520,7 +2520,7 @@ containing a value of this type.
         public static final int abc_search_view=0x7f040019;
         public static final int abc_select_dialog_material=0x7f04001a;
         public static final int activity_fragment=0x7f04001b;
-        public static final int fragment_crime_list=0x7f04001c;
+        public static final int fragment_photo_gallery=0x7f04001c;
         public static final int list_item_crime=0x7f04001d;
         public static final int notification_action=0x7f04001e;
         public static final int notification_action_tombstone=0x7f04001f;
